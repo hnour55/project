@@ -1,0 +1,54 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+.bdbd {
+    background-image: url("./bkg.jpg");
+    color: azure; 
+}
+span{
+    font-weight: lighter;
+    font-size:20px
+}
+#b{
+    font-weight: bold;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.nb{
+    background: linear-gradient( rgb(255, 251, 251) 0%, rgb(202, 164, 253) 35%, rgb(136, 233, 253) 100%);
+    background-clip: text ;
+    -webkit-background-clip: text ;
+    -moz-background-clip: text ;
+    color: transparent;
+    font-weight: bold;
+    font-size: 50px ;
+}
+.cc{
+    font-weight: bold;
+    background: linear-gradient( rgb(255, 251, 251) 0%, rgb(202, 164, 253) 35%, rgb(136, 233, 253) 100%);
+    background-clip: text ;
+    -webkit-background-clip: text ;
+    -moz-background-clip: text ;
+    color: transparent;
+    font-size: 20px;
+}
+.d-block{
+    margin-left: 25%;
+    height: 450px;
+}
+.carousel-control-prev{
+    margin-left: 19%;
+    color: black;
+}
+.carousel-control-next{
+    margin-right: 19%;
+    color: black;
+}
+h3{
+    background: linear-gradient( rgb(0, 0, 0) 0%, rgb(0, 4, 255) 35%, rgb(106, 0, 176) 100%);
+    background-clip: text ;
+    -webkit-background-clip: text ;
+    -moz-background-clip: text ;
+    color: transparent;
+    font-weight: bold;
+    
+}

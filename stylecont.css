@@ -1,0 +1,41 @@
+﻿.row{
+    background-color: rgba(255, 255, 255, 0.956);
+    margin: 10px;
+    display: absolute;
+    margin-bottom: -15px;
+    height: 144px;
+    margin-top: 5px;
+}
+h2{
+    text-align: center ;
+    color: rgb(218, 162, 42);
+    font-family: mfont;
+}
+@font-face{
+    font-family: mfont;
+    src: url(./Lemon\ Beach.otf);
+}
+h5{
+    color: rgb(73, 33, 6);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input, select, #otherCountryInput, #country, textarea{
+    width: 300px;
+    margin-left: 30px;
+}
+form {
+    width: 600px;
+    padding: 20px;
+    margin-left: 350px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+#otherCountryInput {
+    display: none;
+    margin-left: 5px;
+}
+#bt{
+    margin-left: 420px;
+}

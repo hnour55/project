@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>contactez-nous</title>
+    <link rel="icon" href="./lnn.jpeg" type="image/x-icon" >
+    <link rel="stylesheet" href="./stylecont.css">
+    <script src="formu.js"></script>
+</head>
+<body>
+  <div class="container-fluid mt-2">
+    <div class="row">
+        <div class="col-sm-1 p-1"></div>
+        <div class="col p-3"><a href="./indexx.html"><img src="./lnn4.jpeg" height="88%" width="200px" alt="lion-n"></a></div>
+        <div class="col-sm-1 p-1"></div>
+        <div class="col p-3"><br><br><button class="btn btn-outline-dark  dropdown-toggle"  id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+        A PROPOS 
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" href="./prst.html"> Présentation </a></li>
+          <li><a class="dropdown-item" href="./prj.html"> Nos projets </a></li>
+        </ul></div>
+        <div class="col p-3"><br><br><a href="./contact.html" class="btn btn-outline-dark"> devis </a></div>
+    </div><br>
+  </div>
+  <div class="container mt-3">
+    <h2>contactez-nous</h2>
+    <h5> Des objectifs digitaux à atteindre ? N’hésitez pas à nous confier vos missions !
+      <br> Pour toute demande de devis, de conseils ou de rendez-vous, 
+      remplissez le formulaire ci-dessous ! <br>
+      Aucune offre de recrutement ne sera acceptée sur cette adresse. <br><br></h5>
+    <form name="f">
+      <table class="table table-borderless">
+        <tr>
+          <td><label for="np">Nom et Prénom:</label></td>
+          <td>
+            <input type="text" id="np" placeholder="Entrer votre nom et prénom" name="nom" required>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td>
+            <input type="email" id="email" placeholder="Entrer ton email" name="email" required>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="pwd">Password:</label></td>
+          <td>
+            <input type="password" id="pass" placeholder="Entrer ton mot de passe" name="pswd" required>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="tlf">Téléphone:</label></td>
+          <td>
+            <input type="tel"  id="tlf" placeholder="Entrer ton téléphone" name="tlfn" required>
+          </td>
+        </tr>
+        <tr>
+          <div class="form-group">
+            <td><label for="country">Pays:</label></td>
+            <td>
+              <select class="form-control" id="country" name="country" onchange="showOtherInput()" required>
+                <option value="1">Tunis </option>
+                <option value="2">France </option>
+                <option value="3">USA</option>
+                <option value="other" id="other">Autre</option>
+              </select>
+              <div class="form-group" id="otherCountryInput">
+                <label for="otherCountry">entrer ton pays:</label>
+                <input type="text" class="form-control" id="otherCountry" name="otherCountry">
+              </div>
+            </td>
+          </div>
+        </tr>
+        <tr>
+          <td><label for="ville">Ville:</label></td>
+          <td>
+            <input type="text" id="ville" placeholder="Entrer votre ville" name="ville" required>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="cp">Code postale:</label></td>
+          <td>
+            <input type="text" id="cp" placeholder="Entrer votre code postale" name="cp" required>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="stweb">Site Web:</label></td>
+          <td>
+            <select name="stwb" id="stwb">
+              <option value="1">Développement web </option>
+              <option value="2">gestion de Réseaux Sociaux </option>
+              <option value="3">référencement des sites web </option>
+              <option value="4">Degital marketing </option>
+              <option value="5">Intelligence web</option>
+              <option value="5">intégration de solutions IT</option>
+              <option value="5">Gestion des Services Informatiques (GSI)</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="msg">message:</label></td>
+          <td>
+            <textarea name="msg" id="msg" cols="40" rows="5" placeholder="Ecrit ton message" required></textarea>
+          </td>
+        </tr>
+      </table>
+      <input type="button" value="Envoyer" id="bt" onclick="verif()">
+    </form>
+</body>
+</html>

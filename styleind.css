@@ -1,0 +1,65 @@
+﻿body{
+    display:absolute ;
+}
+.custom-image {
+    position: absolute;
+    margin-top: -2%;
+    margin-left: -1%;
+    height: 540px;
+    width: 1490px;
+} 
+@font-face{
+    font-family: myfont;
+    src: url(./Faster\ Stroker.otf);
+}
+@font-face{
+    font-family: mfont;
+    src: url(./Lemon\ Beach.otf);
+}
+@font-face{
+    font-family: titre;
+    src: url(./Maxengine.otf);
+}
+.overlay-text {
+position: absolute;
+top: 35%;
+left: 750px;
+transform: translate(-50%, -50%);
+font-family: myfont;
+font-size: 80px;
+text-align: center;
+color: rgba(133, 242, 242, 0.701);
+}
+.overlay-text1 {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: mfont;
+    font-size: 80px;
+    color: rgb(1, 247, 255);
+}
+.overlay-text2 {
+    position: absolute;
+    top: 86%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+#aa{
+    font-size: 27px;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: titre;
+    color: rgb(55, 248, 255);
+}
+#pp{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(52, 50, 50);
+    margin: 1%;
+}
+h3{
+    font-family: fantasy ;
+}
